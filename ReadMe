@@ -1,0 +1,4 @@
+Run the project in Xampp Server 
+download xampp from here: https://www.apachefriends.org/download.html
+paste the project in C:\xampp\htdocs 
+open your chrome and type: http://localhost/Library-Management/
