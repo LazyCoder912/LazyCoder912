@@ -1,0 +1,157 @@
+*{
+  margin: 0px;
+  padding: 0px;
+  list-style: none;
+}
+body{
+  background-image:url(../images/bag.jpg);
+  background-size: cover;
+  padding-top: 60px; 
+}
+
+.menu{
+  position: fixed;
+  width:300px;
+  padding: 0px;
+  overflow: hidden;
+  height: 100%;
+  background: #454084;
+  background-color: #24354e;
+   box-shadow: 1px 4px 5px rgba(0, 0, 0, 0.3);
+   cursor: hand;
+
+}
+.menu ul{
+  list-style: none;
+}
+.menu li{
+
+  padding: 15px;
+
+}
+.menu a{
+  font: 1px;
+  font-family: Timesnewroman;
+  color:white;
+  margin-left: 10px;  
+}
+.menu ul li:hover {
+  background: #ccc;
+  border-radius: 2px;
+}
+i{ color: white;
+ margin-right: 3px;
+}
+
+.show1{
+ float: right;
+ width:800px;
+ margin-top: 40px;
+ margin-right:200px;
+  background: white;
+}
+.show2{
+ float: right;
+ margin-top: 40px;
+ width:800px;
+ margin-right:250px;
+ margin-top: 50px;
+ background: white;
+} 
+.show3{
+ float: right;
+ margin-top: 40px;
+ width:800px;
+ margin-right:200px;
+} 
+p{
+  margin: 20px;
+
+  color: black;
+}
+input[type=button]{
+
+  background: skyblue;
+}
+
+
+.add{
+  display: inline-flex;
+  background: lightgray;
+  width: 100%;
+}
+.f{
+  margin-left: 100px;
+}
+input[type=text],input[type="password"]{
+  width: 80%;
+  padding: 5px 10px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+
+
+a{
+  color: white;
+  text-decoration: none;
+}
+
+table {
+ font-family: arial, sans-serif;
+ border-collapse: collapse;
+ width: 100%;
+}
+
+td, th {
+ border: 1px solid #dddddd;
+ text-align: left;
+ padding: 8px;
+
+}
+.tr{
+ background: darkblue;
+ color: white;
+}
+
+tr:nth-child(even) {
+  background-color: #dddddd;
+}
+.span8 input[type=text]{
+  float: left;
+}
+.footer {
+ position: fixed;
+ left: 0;
+ bottom: 0;
+ width: 100%;
+ background-color: darkblue;
+ color: white;
+ text-align: center;
+}
+h2{
+  font-size: 35px;
+  font-weight: 500;
+  letter-spacing: 4px;
+  margin-bottom: 20px 0;
+  color: #FFFFFF;
+}
+.carousel-inner img {
+  width: 100%;
+  height: 700px;
+}
+footer{
+  border-top: 3px solid green;
+  background-color: #2F4771;
+}
+a
+{
+  color: white;
+  text-decoration: none;
+}
+.dropdown-menu li:hover {
+  background: #2F4771;
+  border-radius: 2px;
+}
